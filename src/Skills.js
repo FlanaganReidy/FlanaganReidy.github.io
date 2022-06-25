@@ -3,7 +3,6 @@ import Container from 'react-bootstrap/Container'
 import React from 'react';
 import Accordion from 'react-bootstrap/Accordion'
 function Skills(){
-
     return(
         <Container className="workContainer">
             <h3>Languages</h3>
