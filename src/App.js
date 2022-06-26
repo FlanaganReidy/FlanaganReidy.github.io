@@ -5,6 +5,7 @@ import Work from './Work.js';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import Profile from './Profile.js';
+import Contact from './Links.js';
 
 function App() {
   return (
@@ -14,14 +15,12 @@ function App() {
           <Tab eventKey="about" title="About Me">
           <Profile />
           </Tab>
-          <Tab eventKey="work" title="Work Experience">
+          <Tab eventKey="work" title="Experience">
           <Work />
           </Tab>
           <Tab eventKey="skills" title="Skills">
           <Skills />
           </Tab>
-          <Tab eventKey="links" title="Links">
-        </Tab>
       </Tabs>
       
       

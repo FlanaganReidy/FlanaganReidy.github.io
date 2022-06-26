@@ -3,6 +3,47 @@ import Card from 'react-bootstrap/Card';
 function Work (){
     return (
         <Container className = 'workContainer'>
+            <h3>Education</h3>
+            <Row>
+            <Col>
+            <Card>
+                <Card.Header>Austin Community College <br/> Graduated 2022</Card.Header>
+                <Card.Body>
+                    <Card.Title>Web Developer Specialist Certifcation</Card.Title>
+                    <Card.Text>
+                        At ACC I gained a rounded education in different web development technologies. Much of my work was written in Javascript using JQuery but I also developed skills using Java and PHP for writing back end applications.
+                        
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            </Col>
+            <Col><Card>
+                <Card.Header>The Iron Yard Code School <br/> Graduated 2017</Card.Header>
+                <Card.Body>
+                    <Card.Title>Full Stack Web Development</Card.Title>
+                    <Card.Text>
+                        At the Iron Yard I developed a passion for working in web development. I started with Javascript working with Node and Express and then moved onto a Java/Springboot development stack. I worked with writing APIs and creating dynamic CRUD applications.
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            </Col>
+        </Row>
+        <br/>
+        <Row>
+            <Col>
+            <Card>
+                <Card.Header>University of North Texas <br/> Graduated 2015</Card.Header>
+                <Card.Body>
+                    <Card.Title>Bachelor's degree -- French</Card.Title>
+                    <Card.Text>
+                    I graduated from the University of North Texas with a bachelor’s in French. During my time in school I found that I enjoy being a lifelong student. The French language is a passion of mine and I wanted to use this passion in a teaching capacity, which was something I got to do when I moved to Paris the year after I graduated.
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            </Col>
+        </Row>
+        <br />
+
             <h3>Work Experience</h3>
         <Row>
             <Col>
