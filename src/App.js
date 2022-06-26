@@ -20,7 +20,7 @@ function App() {
           <Tab eventKey="skills" title="Skills">
           <Skills />
           </Tab>
-          <Tab eventKey="contact" title="Contact">
+          <Tab eventKey="links" title="Links">
         </Tab>
       </Tabs>
       
