@@ -7,7 +7,7 @@ function Skills(){
     return(
         <Container className="workContainer">
             <Row>
-                <Col>
+                <Col md={6}>
             <h3>Languages</h3>
             <ListGroup>
             <ListGroup.Item>
@@ -27,7 +27,7 @@ function Skills(){
                 </ListGroup.Item>
             </ListGroup>
             </Col>
-            <Col>
+            <Col md={6}>
             <h3>Skills</h3>
             <ListGroup>
             <ListGroup.Item>
