@@ -48,7 +48,7 @@ function Work (){
         <Row>
             <Col md={6}>
             <Card>
-                <Card.Header>Indeed - 2021-2022</Card.Header>
+                <Card.Header>Indeed - 2021-Present</Card.Header>
                 <Card.Body>
                     <Card.Title>GPC Operations Specialist</Card.Title>
                     <Card.Text className="body-text">
