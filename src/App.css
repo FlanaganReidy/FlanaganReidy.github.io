@@ -19,8 +19,9 @@
   flex-direction: column;
   font-size: calc(10px + 2vmin);
   color: white;
-  padding: 5%;
+  padding: 2%;
 }
+
 
 .App-link {
   color: #61dafb;
@@ -33,4 +34,18 @@
 }
 .body-text{
   text-align: start;
+}
+.footer{
+  background-color: #282c34;
+  width: 2rem;
+}
+@media (min-width:1024px) {
+  .workContainer{
+    max-width:60%
+  }
+  .App-header{
+    max-height: 8rem;
+    align-content: space-around;
+  }
+  
 }

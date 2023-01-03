@@ -7,6 +7,7 @@ import Tabs from 'react-bootstrap/Tabs';
 import Profile from './Profile.js';
 import Contact from './Links.js';
 import ThemeProvider from 'react-bootstrap/ThemeProvider'
+import { Footer } from './Footer';
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
           <Skills />
           </Tab>
       </Tabs>
-      
+      <Footer />
       
     </div>
   );

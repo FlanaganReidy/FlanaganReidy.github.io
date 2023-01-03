@@ -5,9 +5,9 @@ import Accordion from 'react-bootstrap/Accordion'
 import { ListGroup, Row, Col } from 'react-bootstrap';
 function Skills(){
     return(
-        <Container className="workContainer">
+        <Container className="workContainer" fluid>
             <Row>
-                <Col md={6}>
+                <Col md={4}>
             <h3>Languages</h3>
             <ListGroup>
             <ListGroup.Item>
@@ -27,7 +27,7 @@ function Skills(){
                 </ListGroup.Item>
             </ListGroup>
             </Col>
-            <Col md={6}>
+            <Col md={4}>
             <h3>Skills</h3>
             <ListGroup>
             <ListGroup.Item>
@@ -44,6 +44,26 @@ function Skills(){
                 </ListGroup.Item>
                 <ListGroup.Item >
                     Call Management
+                </ListGroup.Item>
+            </ListGroup>
+            </Col>
+            <Col md={4}>
+            <h3>Technologies</h3>
+            <ListGroup>
+                <ListGroup.Item>
+                    React/Redux
+                </ListGroup.Item>
+                <ListGroup.Item >
+                    Nodejs
+                </ListGroup.Item>
+                <ListGroup.Item >
+                    MongoDB/Mongoose
+                </ListGroup.Item>
+                <ListGroup.Item >
+                    Bootstrap-React
+                </ListGroup.Item>
+                <ListGroup.Item >
+                    Nextjs
                 </ListGroup.Item>
             </ListGroup>
             </Col>

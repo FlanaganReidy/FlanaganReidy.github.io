@@ -5,8 +5,8 @@ function Header(){
         
         <header className="App-header">
             <Row>
-            <h1>Shannon Reidy</h1>
-            <p>Junior Web Developer</p>
+            <Col lg={6}>Shannon Reidy</Col>
+            <Col lg={6}>Front-End Web Developer</Col>
             </Row>
       </header>
     );
