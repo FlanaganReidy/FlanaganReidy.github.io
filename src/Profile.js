@@ -6,10 +6,10 @@ import Contact from "./Links.js";
 
 function Profile(){
     return(
-        <Container>
+        <Container className="profile-container">
             <Row>
-                <Col  md={6}>
-                    <h3>
+                <Col  md={6} className="profile-text">
+                    <h3 className="title-text">
                         Who am I?
                     </h3>
                     <br /> 

@@ -25,6 +25,9 @@ function Skills(){
                 <ListGroup.Item>
                     C#
                 </ListGroup.Item>
+                <ListGroup.Item >
+                    Typescript
+                </ListGroup.Item>
             </ListGroup>
             </Col>
             <Col md={4}>
@@ -51,19 +54,25 @@ function Skills(){
             <h3>Technologies</h3>
             <ListGroup>
                 <ListGroup.Item>
-                    React/Redux
+                    React
                 </ListGroup.Item>
                 <ListGroup.Item >
                     Nodejs
                 </ListGroup.Item>
                 <ListGroup.Item >
-                    MongoDB/Mongoose
+                    MongoDB
                 </ListGroup.Item>
                 <ListGroup.Item >
                     Bootstrap-React
                 </ListGroup.Item>
                 <ListGroup.Item >
                     Nextjs
+                </ListGroup.Item>
+                <ListGroup.Item >
+                    Redux
+                </ListGroup.Item>
+                <ListGroup.Item >
+                    Mongoose
                 </ListGroup.Item>
             </ListGroup>
             </Col>

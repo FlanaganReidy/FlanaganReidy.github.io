@@ -7,13 +7,13 @@ import Tabs from 'react-bootstrap/Tabs';
 import Profile from './Profile.js';
 import Contact from './Links.js';
 import ThemeProvider from 'react-bootstrap/ThemeProvider'
-import { Footer } from './Footer';
+import  Footer  from './Footer.js';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Tabs defaultActiveKey="about" id="uncontrolled-tab-example" className="mb-3"> 
+      <Tabs defaultActiveKey="about" id="uncontrolled-tab-example" className="tab-container"> 
           <Tab eventKey="about" title="About Me">
           <Profile />
           </Tab>

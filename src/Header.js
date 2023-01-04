@@ -4,9 +4,12 @@ function Header(){
     return (
         
         <header className="App-header">
-            <Row>
-            <Col lg={6}>Shannon Reidy</Col>
-            <Col lg={6}>Front-End Web Developer</Col>
+            <div className="bg"></div>
+            <div className="bg bg2"></div>
+            <div className="bg bg3"></div>
+            <Row className='title-header'>
+                <Col>Shannon Reidy</Col>
+                <Col>Front-End Web Developer</Col>
             </Row>
       </header>
     );

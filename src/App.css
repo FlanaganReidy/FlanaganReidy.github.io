@@ -7,24 +7,37 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  display: flex;
-  flex-direction: column;
+  
   font-size: calc(10px + 2vmin);
   color: white;
   padding: 2%;
 }
-
-
+.nav{
+  margin-bottom: -1px !important;
+}
+.nav-tabs{
+  border-bottom: hidden !important;
+  color: white;
+}
+.nav-link.active {
+  background-color: rgba(0,0,0,.5) !important;
+  color: white !important;
+  border: hidden !important;
+}
+.nav-link{
+  color:white !important;
+}
+.nav-link:hover{
+  background-color: rgba(0,0,0,.25) !important;
+  border: hidden !important;
+}
+.title-header{
+  display: flex;
+  flex-direction: column;
+}
 .App-link {
-  color: #61dafb;
+  color: #4762FA;
 }
 .profilePic{
   width:50%;
@@ -34,18 +47,81 @@
 }
 .body-text{
   text-align: start;
+  font-family: sans-serif;
+  color: white;
+  
+  padding: 2vmin 4vmin;
+}
+.title-text{
+  font-family: sans-serif;
+  color: white;
+  padding: 2vmin 4vmin;
+
+}
+.tab-content{
+  height: 100%;
+}
+.tab-content>.active{
+  padding-top: 1rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-shadow:0 0 .25em rgba(0,0,0,.25);
+  height: 100% !important;
 }
 .footer{
-  background-color: #282c34;
-  width: 2rem;
+  background-color: #777777;
+  position:fixed;
+  width: 100%;
+  bottom: 0;
+  padding: 2rem;
+  
+}
+
+
+/*Animation styles*/
+.bg {
+  animation: slide 40s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #0038a8 50%, #d70270 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration: 50s;
+}
+
+.bg3 {
+  animation-duration: 60s;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
 }
 @media (min-width:1024px) {
   .workContainer{
     max-width:60%
   }
   .App-header{
-    max-height: 8rem;
-    align-content: space-around;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
+  .title-header{
+    max-height: inherit;
+    justify-content: center;
+   
+  } 
   
 }
