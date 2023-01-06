@@ -5,7 +5,7 @@ import Work from './Work.js';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import Profile from './Profile.js';
-import Contact from './Links.js';
+import Contact from './Contact.js';
 import ThemeProvider from 'react-bootstrap/ThemeProvider'
 import  Footer  from './Footer.js';
 

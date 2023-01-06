@@ -2,11 +2,11 @@ import { Container } from "react-bootstrap";
 import profilepic from "./Profile.jpg";
 import Image from 'react-bootstrap/Image';
 import { Row,Col } from "react-bootstrap";
-import Contact from "./Links.js";
+import Contact from "./Contact.js";
 
 function Profile(){
     return(
-        <Container className="profile-container">
+        <Container className="profile-containerthat a">
             <Row>
                 <Col  md={6} className="profile-text">
                     <h3 className="title-text">
@@ -22,7 +22,6 @@ function Profile(){
                 </Col>
                 <Col  md={6}>
                     <Image src={profilepic} rounded alt="It's me!" className="profilePic"/>
-                    <Contact />
                 </Col>
                 
             </Row>

@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import {Row, Col} from 'react-bootstrap';
+import Contact from './Contact';
 function Header(){
     return (
         
@@ -10,6 +11,7 @@ function Header(){
             <Row className='title-header'>
                 <Col>Shannon Reidy</Col>
                 <Col>Front-End Web Developer</Col>
+                <Contact />
             </Row>
       </header>
     );

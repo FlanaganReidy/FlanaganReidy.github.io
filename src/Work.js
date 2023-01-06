@@ -4,9 +4,9 @@ function Work (){
     return (
         <Container className = 'workContainer' fluid>
             <h3>Education</h3>
-            <Row>
+            <Row> 
             <Col md={6}>
-            <Card>
+            <Card className='info-card'>
                 <Card.Header>Austin Community College <br/> Graduated 2022</Card.Header>
                 <Card.Body>
                     <Card.Title>Web Developer Specialist Certifcation</Card.Title>
@@ -17,7 +17,7 @@ function Work (){
                 </Card.Body>
             </Card>
             </Col>
-            <Col md={6}><Card>
+            <Col md={6}><Card className='info-card'>
                 <Card.Header>The Iron Yard Code School <br/> Graduated 2017</Card.Header>
                 <Card.Body>
                     <Card.Title>Full Stack Web Development</Card.Title>
@@ -31,7 +31,7 @@ function Work (){
         <br/>
         <Row>
             <Col md={12}>
-            <Card>
+            <Card className='info-card'>
                 <Card.Header>University of North Texas <br/> Graduated 2015</Card.Header>
                 <Card.Body>
                     <Card.Title>Bachelor's degree -- French</Card.Title>
@@ -47,7 +47,7 @@ function Work (){
             <h3>Work Experience</h3>
         <Row>
             <Col md={6}>
-            <Card>
+            <Card className='info-card'>
                 <Card.Header>Indeed - 2021-Present</Card.Header>
                 <Card.Body>
                     <Card.Title>GPC Operations Specialist</Card.Title>
@@ -57,7 +57,7 @@ function Work (){
                 </Card.Body>
             </Card>
             </Col>
-            <Col md={6}><Card>
+            <Col md={6}><Card className='info-card'>
                 <Card.Header>Stitch Fix - 2017-2021</Card.Header>
                 <Card.Body>
                     <Card.Title>Agent III</Card.Title>
@@ -74,7 +74,7 @@ function Work (){
         <br />
         <Row>
             <Col md={6}>
-            <Card>
+            <Card className='info-card'>
                 <Card.Header>Vernoux-Chevalier Family - 2016-2017</Card.Header>
                 <Card.Body>
                     <Card.Title>Au Pair</Card.Title>
@@ -85,7 +85,7 @@ function Work (){
                 </Card.Body>
             </Card>
             </Col>
-            <Col md={6}><Card>
+            <Col md={6}><Card className='info-card'>
                 <Card.Header>More Fun Game Center - 2015-2016</Card.Header>
                 <Card.Body>
                     <Card.Title>Sales Representative</Card.Title>
