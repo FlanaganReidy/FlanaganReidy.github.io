@@ -4,7 +4,9 @@ import { Container, Row } from "react-bootstrap";
 function Footer(){
     return(
         <Container fluid className="footer">
-            <div></div>
+            <div>
+            ©️ 2023 Shannon Reidy
+            </div>
         </Container>
     )
 }

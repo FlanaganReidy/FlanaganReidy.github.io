@@ -48,12 +48,21 @@
 .buttonLink{
   Margin: 5%;
 }
-.body-text{
+.card-text{
   text-align: start;
   font-family: sans-serif;
   color: white;
-  
-  padding: 2vmin 4vmin;
+  background-color:rgba(75,36,75);
+  padding: 5px 5px;
+}
+.profile-text>.body-text{
+  text-align: start;
+  font-family: sans-serif;
+  color: white;
+  background-color:rgba(75,36,75);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  padding: 5px 5px;
+
 }
 .title-text{
   font-family: sans-serif;
@@ -67,22 +76,33 @@
 
 .card{
   border: hidden !important;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 
 }
 .card>.card-header, .card>.card-body{
-  background-color:rgb(75,36,75);
+  background-color:rgba(75,36,75);
   border:hidden;
  
 }
+.list-group{
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);;
+}
+.list-group-item{
+  background-color:rgba(75,36,75) !important;
+  border:hidden !important;
+  color:white !important;
+}
 .card-header:first-child{
   border-bottom: hidden;
+  border-radius: 0px !important;
 }
 .tab-content>.active{
   padding-top: 1rem;
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
   text-shadow:0 0 .25em rgba(0,0,0,.25);
-  height: 100% !important;
+  padding-bottom: 4rem;
+  min-height: 100vh;
 }
 .workContainer>h3{
   color: white;
@@ -92,11 +112,11 @@
 }
 .footer{
   background-color: #777777;
-  position:fixed;
-  width: 100%;
+  position: fixed;
   bottom: 0;
-  padding: 2rem;
-  
+  width: 100%;
+  padding: 1rem;
+  color:white;
 }
 
 

@@ -74,6 +74,9 @@ function Skills(){
                 <ListGroup.Item >
                     Mongoose
                 </ListGroup.Item>
+                <ListGroup.Item >
+                    Jest
+                </ListGroup.Item>
             </ListGroup>
             </Col>
             </Row>
