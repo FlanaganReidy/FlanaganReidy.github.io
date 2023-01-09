@@ -5,7 +5,7 @@ function Footer(){
     return(
         <Container fluid className="footer">
             <div>
-            ©️ 2023 Shannon Reidy
+            © 2023 Shannon Reidy
             </div>
         </Container>
     )
