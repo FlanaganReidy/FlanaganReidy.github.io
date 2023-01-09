@@ -8,6 +8,7 @@ function Skills(){
         <Container className="workContainer" fluid>
             <Row>
                 <Col md={4}>
+                <br/>
             <h3>Languages</h3>
             <ListGroup>
             <ListGroup.Item>
@@ -31,6 +32,7 @@ function Skills(){
             </ListGroup>
             </Col>
             <Col md={4}>
+                <br/>
             <h3>Skills</h3>
             <ListGroup>
             <ListGroup.Item>
@@ -51,6 +53,7 @@ function Skills(){
             </ListGroup>
             </Col>
             <Col md={4}>
+            <br/>
             <h3>Technologies</h3>
             <ListGroup>
                 <ListGroup.Item>

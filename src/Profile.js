@@ -8,7 +8,7 @@ function Profile(){
     return(
         <Container className="profile-containerthat a">
             <Row>
-                <Col  md={6} className="profile-text">
+                <Col  lg={6} className="profile-text">
                     <h3 className="title-text">
                         Who am I?
                     </h3>
@@ -19,7 +19,7 @@ function Profile(){
                     </p>
                     </div>
                 </Col>
-                <Col  md={6}>
+                <Col  lg={6} className="profile-pic-container">
                     <Image src={profilepic} rounded alt="It's me!" className="profilePic"/>
                 </Col>
                 

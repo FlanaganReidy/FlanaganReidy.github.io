@@ -42,8 +42,14 @@
 .App-link {
   color: #4762FA;
 }
+.profile-pic-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+}
 .profilePic{
-  width:50%;
+  width:100%;
 }
 .buttonLink{
   Margin: 5%;
@@ -165,5 +171,13 @@
     justify-content: center;
    
   } 
+  .profile-pic-container{
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  .profilePic{
+    width:60%
+  }
   
 }

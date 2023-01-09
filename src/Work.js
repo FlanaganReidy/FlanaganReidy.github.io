@@ -16,8 +16,9 @@ function Work (){
                     </Card.Text>
                 </Card.Body>
             </Card>
+            <br/>
             </Col>
-            <Col md={6}><Card className='info-card'>
+            <Col md={6} sm={12}><Card className='info-card'>
                 <Card.Header>The Iron Yard Code School <br/> Graduated 2017</Card.Header>
                 <Card.Body>
                     <Card.Title>Full Stack Web Development</Card.Title>
@@ -56,6 +57,7 @@ function Work (){
                     </Card.Text>
                 </Card.Body>
             </Card>
+            <br/>
             </Col>
             <Col md={6}><Card className='info-card'>
                 <Card.Header>Stitch Fix - 2017-2021</Card.Header>
@@ -85,6 +87,7 @@ function Work (){
                 </Card.Body>
             </Card>
             </Col>
+            <br/>
             <Col md={6}><Card className='info-card'>
                 <Card.Header>More Fun Game Center - 2015-2016</Card.Header>
                 <Card.Body>
