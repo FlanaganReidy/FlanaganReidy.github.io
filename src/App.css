@@ -17,7 +17,8 @@
   margin: 3px;
 }
 .nav{
-  margin-bottom: -1px !important;
+  margin-bottom: 1px !important;
+  padding-left: 1% !important;
 }
 .nav-tabs{
   border-bottom: hidden !important;
@@ -26,14 +27,15 @@
 .nav-link.active {
   background-color: rgba(0,0,0,.5) !important;
   color: white !important;
-  border: hidden !important;
+  border: transparent !important;
 }
 .nav-link{
   color:white !important;
+  border: transparent !important;
 }
 .nav-link:hover{
   background-color: rgba(0,0,0,.25) !important;
-  border: hidden !important;
+  border: transparent !important;
 }
 .title-header{
   display: flex;
@@ -65,7 +67,7 @@
   text-align: start;
   font-family: sans-serif;
   color: white;
-  background-color:rgba(75,36,75);
+  background-color:#4b244b;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   padding: 1.2rem;
 
@@ -121,7 +123,7 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  padding: 1rem;
+  padding: .5rem;
   color:white;
 }
 
@@ -159,6 +161,9 @@
 @media (min-width:1024px) {
   .workContainer{
     max-width:60%
+  }
+  .nav{
+    padding-left: 5% !important;
   }
   .App-header{
     display: flex;

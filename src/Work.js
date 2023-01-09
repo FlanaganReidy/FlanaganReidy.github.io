@@ -86,8 +86,9 @@ function Work (){
                     </Card.Text>
                 </Card.Body>
             </Card>
-            </Col>
             <br/>
+            </Col>
+            
             <Col md={6}><Card className='info-card'>
                 <Card.Header>More Fun Game Center - 2015-2016</Card.Header>
                 <Card.Body>
